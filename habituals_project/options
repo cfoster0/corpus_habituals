@@ -1,0 +1,11 @@
+data=~/cocolab/corpus_habituals/habituals_project/data/
+results=~/cocolab/corpus_habituals/habituals_project/results/
+
+init ID
+
+add StringVar Prefix
+add StringVar Noun
+add StringVar Verb=VBZ
+add StringVar Habitual
+add StringVar Sentence
+add StringVar Context=10-b

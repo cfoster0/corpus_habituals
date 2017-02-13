@@ -1,0 +1,3 @@
+@ HABITUAL (/^N/ = NN | NNP) @. NN . (VBZ @. /^VP/);
+@ IMHABITUAL    (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) !.. /TMP/ !,, /TMP/;
+@ EXHABITUAL    (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) .. /TMP/ | ,, /TMP/;

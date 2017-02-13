@@ -1,0 +1,1 @@
+(/^N/=print = NN | = NNP) @. NN . (VBZ @. /^VP/)
