@@ -6,6 +6,7 @@ These are some of the patterns I have tested out as of Monday, 2.13.
 2. (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) !.. /TMP/ !,, /TMP/
 3. (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) [.. /TMP/ | ,, /TMP/]
 4. (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/ @< is @< has)
+5. (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/ @< is @< has @< knows @< loves @< considers @< wants @< likes) @>> /^SBAR/
 
 Here are the counts for how many examples they return:
 
@@ -13,6 +14,7 @@ Here are the counts for how many examples they return:
 2. 2039
 3. 559
 4. 879
+5. 417
 
 Below are a few examples returned.
 
@@ -52,3 +54,15 @@ Includes examples from 1 that also have a temporal component.
 * "And then the, uh, they take them to a special part of our dump where composting is now in full swing,"
 * "My husband hasn't been to Europe yet"
 * "it seems like a, a big thing for Christmas is usually ham."
+
+### Pattern 5
+Includes examples from 2 while excluding certain psychological verbs and examples that appear within embedded clauses.
+
+* "local news concentrates, on murders and things like that.?"
+* "in one part, the guy goes out of jail,â"
+* "and everybody gets one at the beginning of the year,â"
+* "The further away I get, the, the, uh, wider the shot gets from the target.?"
+* "one doesnâ't go in July.â"
+* "One fact, my, uh, my grandmother does that a lot, because sheâ's blindâ"
+* "and our daughter watches her pennies so closely, that she almost, she almost, just sounds like your father,?"
+* "and, you know, next thing you know, uh, someone calls and wants to sell you this or thatâ"

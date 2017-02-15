@@ -1,3 +1,6 @@
-@ HABITUAL (/^N/ = NN | NNP) @. NN . (VBZ @. /^VP/ != is != has);
+@ BHABITUAL (/^N/ = NN | = NNP) . (VBZ @. /^VP/);
+@ HABITUALL  (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/);
+@ HABITUALX  (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/ @< is @< has);
+@ HABITUAL  (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/ @< is @< has @< knows @< loves @< considers @< wants @< likes) @>> /^SBAR/;
 @ IMHABITUAL    (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) !.. /TMP/ !,, /TMP/;
-@ EXHABITUAL    (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) .. /TMP/ | ,, /TMP/;
+@ EXHABITUAL    (/^N/ = NN | = NNP) @. NN . (VBZ @. /^VP/) [.. /TMP/ | ,, /TMP/];
