@@ -58,11 +58,11 @@ Includes examples from 1 that also have a temporal component.
 ### Pattern 5
 Includes examples from 2 while excluding certain psychological verbs and examples that appear within embedded clauses.
 
-* "local news concentrates, on murders and things like that.?"
-* "in one part, the guy goes out of jail,â"
-* "and everybody gets one at the beginning of the year,â"
-* "The further away I get, the, the, uh, wider the shot gets from the target.?"
-* "one doesnâ't go in July.â"
-* "One fact, my, uh, my grandmother does that a lot, because sheâ's blindâ"
-* "and our daughter watches her pennies so closely, that she almost, she almost, just sounds like your father,?"
-* "and, you know, next thing you know, uh, someone calls and wants to sell you this or thatâ"
+* "local news concentrates, on murders and things like that."
+* "in one part, the guy goes out of jail,"
+* "and everybody gets one at the beginning of the year,"
+* "The further away I get, the, the, uh, wider the shot gets from the target."
+* "one doesn't go in July."
+* "One fact, my, uh, my grandmother does that a lot, because she's blind"
+* "and our daughter watches her pennies so closely, that she almost, she almost, just sounds like your father,"
+* "and, you know, next thing you know, uh, someone calls and wants to sell you this or that"
